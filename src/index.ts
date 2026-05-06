@@ -4,7 +4,7 @@ import { Hono } from 'hono'
 const app = new Hono()
 
 app.get('/', (c) => {
-  return c.text('Hello Mikrom from GitHub Push!')
+  return c.text('Hello Mikrom from GitHub Mikrom Integration!')
 })
 
 const port = Number(process.env.PORT) || 3000;
