@@ -4,7 +4,7 @@ import { Hono } from 'hono'
 const app = new Hono()
 
 app.get('/', (c) => {
-  return c.text('ahora ahora ahora sí!')
+  return c.text('ahora ahora ahora ahora sí!')
 })
 
 const port = Number(process.env.PORT) || 3000;
