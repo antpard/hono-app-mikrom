@@ -4,7 +4,7 @@ import { Hono } from 'hono'
 const app = new Hono()
 
 app.get('/', (c) => {
-  return c.text('Ya estámos cerca de la beta cerrada!')
+  return c.text('Probando webhook automático de Github!')
 })
 
 const port = Number(process.env.PORT) || 3000;
